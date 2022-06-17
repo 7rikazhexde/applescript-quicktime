@@ -34,13 +34,13 @@
 /******************************************************** 
  Function Name:
 	ask_recording_time():
-	Function to enter recording time
+	Function to display a dialog box to request the input of recording time and return the input value
  Arguments:
 	None
  Return value:
 	response.textReturned: recording time
  Description:
-	Returns only the value entered as a number as the recording time
+	Recorded time is processed only for numerical values.
 ********************************************************/
 function ask_recording_time(){
 	var app = Application.currentApplication()
@@ -127,7 +127,7 @@ function quicktimeplayer_play_multiscreens(){
 	screen_recording(input_time):
 	Screen recording processing function
  Arguments
-	input_num: time to record
+	input_time: time to record
  Return value:
 	None
  Description:
