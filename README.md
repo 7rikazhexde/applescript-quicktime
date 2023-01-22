@@ -1,26 +1,14 @@
 # AppleScript-JXA-Collection
 Repository to manage created AppleScripts and JavaScript for Automation(JXA)
 
-# Programs
-## QuickTime Player
-* screenrecording
+## Programs
+For specifications and usage, please refer to README.md of each program.
 
-## Usage
-Extract and run the .script file stored in the program folder from the script editor.
-See comments at the top of the source code for instructions on how to use the script.
+### auto-screen-record-quicktime 
+* AppleScript for timed screen recording ([README.md](https://github.com/7rikazhexde/auto-screen-record-quicktime#auto-screen-record-quicktime))
 
-If you want to run the file as an app file, please export the file format as application-specified.
-Also, a security error is displayed the first time the run application is run.
-In this case, please refer to the following settings to allow the script editor security settings.
-
-## Note
-### Supported Versions
-* macOS Monterey(version 12.4)
-
-### Setting
-The script uses System Events.
-To run System Events, you must allow security settings for the script editor.
-In System Preferences, go to Security and Privacy > Privacy > Accessibility > Allow Computer Control for Script Editor.
+### trim-quicktime
+* AppleScript to trim and save selected video files with QuickTime Player on MacOS by time specification ([README.md](https://github.com/7rikazhexde/trim-quicktime#trim-quicktime))
 
 
 
