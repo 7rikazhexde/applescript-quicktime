@@ -133,7 +133,7 @@ end quit_quicktimeplayer
 ********************************************************)
 on stop_googlechrome()
 	do shell script "kill -9 $(pgrep 'Google Chrome')"
-end quit_quicktimeplayer
+end stop_googlechrome
 
 (********************************************************
  Function Name:
